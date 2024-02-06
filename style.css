@@ -1,4 +1,3 @@
-.container{
-  display: grid;
-  grid-template-columns: 6fr 5fr;
+#page-one {
+  background-color: aliceblue;
 }
