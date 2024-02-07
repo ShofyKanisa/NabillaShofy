@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </head>
   <body>
+    <!-- Main Container | Navbar & Content First -->
     <main class="container-fluid" id="page-one">
       <header>
         <nav class="navbar">
@@ -29,10 +30,10 @@
             <div class="collapse navbar-collapse" id="navContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">Our Services</a>
+                  <a class="nav-link" href="#our-services">Our Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">Why Us</a>
+                  <a class="nav-link text-dark" href="#why-us">Why Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-dark" href="#">Testimonial</a>
@@ -63,7 +64,9 @@
         </div>
       </section>
     </main>
-    <div class="container">
+
+    <!-- Second Content -->
+    <div class="container" id="our-services">
       <section class="row">
         <div class="col-lg-6 col-lg-5 mb-5 mb-md-0 text-center">
           <img src="img/service.jpeg" alt="" class="img-fluid" />
@@ -93,6 +96,48 @@
               Layanan Airport Transfer / Drop In Out
             </li>
           </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Third Content -->
+    <div class="container" id="why-us">
+      <section class="my-5">
+        <div class="text-start">
+          <h4>Why Us?</h4>
+          <p>Mengapa harus pilih Binar Car Rental?</p>
+        </div>
+        <div>
+          <div class="row justify-content-start" id="card">
+            <div class="card col-md-3">
+              <div class="card-body">
+                <img src="img/complete.png" alt="" />
+                <p class="card-title fw-bold my-2">Mobil Lengkap</p>
+                <p class="card-text">Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body">
+                <img src="img/price.png" alt="" />
+                <p class="card-title fw-bold my-2">Harga Murah</p>
+                <p class="card-text">Harga murah dan bersaing, bisa dibandingkan harga kami dengan rental mobil lain</p>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body">
+                <img src="img/24hrs.png" alt="" />
+                <p class="card-title fw-bold my-2">Layanan 24 Jam</p>
+                <p class="card-text">Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
+              </div>
+            </div>
+            <div class="card col-md-3">
+              <div class="card-body">
+                <img src="img/professional.png" alt="" />
+                <p class="card-title fw-bold my-2">Sopir Profesional</p>
+                <p class="card-text">Sopir yang professional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
